@@ -260,7 +260,7 @@ height = NULL,
     #     colInd <- 1 : nc
     #     ddc <- as.dendrogram(Colv)
     # }
-
+    rowInd <- nr : 1
     ddr <- rev(ddr)
     rowInd <- rev(rowInd) # reverse to match order of R heat maps
     if(!is.null(rowAnnotations)){
