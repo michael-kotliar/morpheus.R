@@ -268,7 +268,7 @@ height = NULL,
         rowAnnotations <- rowAnnotations[rowInd,]
     }
     if(!is.null(columnAnnotations)){
-        columnAnnotations <- columnAnnotations[colInd,]
+        columnAnnotations <- columnAnnotations[colInd, , drop=FALSE]
     }
 
     ## Labels for Row/Column
